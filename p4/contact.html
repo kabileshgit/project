@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+
+    <section class="header">
+        <a href="home.html" class="logo"> <i class="fas fa-chair"></i> furniture</a>
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="services.html">services</a>
+            <a href="product.html">product</a>
+            <a href="team.html">team</a>
+            <a href="blog.html">blogs</a>
+            <a href="contact.html">contact</a>
+        </nav>
+        <div class="icons">
+            <div class="cart-count">0</div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact.png" alt="">
+            </div>
+
+            <form action="" class="contactform">
+                <h3>get in touch</h3>
+
+                <span>your name</span>
+                <input type="text" class="namebox">
+
+                <span>your number</span>
+                <input type="number" class="numberbox">
+
+                <span>your email</span>
+                <input type="email" class="emailbox">
+
+                <span>your message</span>
+                <textarea class="messagebox" cols="30" rows="10"></textarea>
+
+                <button type="submit" value="send message" class="btn">send message</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- shopping cart -->
+
+    <div class="cart-items-container">
+
+        
+          <div class="cart-title">CART ITEMS</div>
+        <div class="cart-content">
+            
+        </div>
+
+        <div class="total">
+            <div class="total-title">Total</div>
+           <div class="total-price">Rs.0</div>
+            </div>        
+            <button class="btn-buy">place order</button>
+           <ion-icon name="close" id="cart-close">
+
+           </ion-icon>
+        
+    </div>
+
+
+    <!-- shopping cart -->
+
+    <!-- account form -->
+
+    <div class="account-form">
+        <div id="close-form" class="fas f a-times"></div>
+
+        <div class="buttons">
+            <span class="btn active login-btn">login</span>
+            <span class="btn register-btn">register</span>
+            <ion-icon name="close" id="cart-close" class="close-btn">
+
+            </ion-icon>
+        </div>
+
+        <form action="" class="login-form active">
+            <h3>Login now</h3>
+            <input type="email" placeholder="enter your email" class="emaillogin">
+            <input type="password" placeholder="enter your password" class="passwordlogin">
+            <div class="flex">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me"> remember me</label>
+                <a href="#">forgot password</a>
+            </div>
+            
+             <button type="submit" value="login" class="btn">login</button>
+        </form>
+
+        <form action="" class="register-form">
+            <h3>register now</h3>
+            <input type="email" placeholder="enter your email" class="emailregister">
+            <input type="number" placeholder="enter your mobile number" class="numberregister">
+            <input type="password" placeholder="enter your password" class="passwordregister">
+            <input type="password" placeholder="confirm your password" class="passwordreregister">
+            <button type="submit" value="register" class="btn">register</button>
+               
+        </form>
+
+    </div>
+
+    <!-- account form -->
+    <section class="credit">
+        created by Kabilesh | all rights reserved!
+    </section>
+    
+    
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
